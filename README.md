@@ -1,6 +1,6 @@
 # PDF RAG System
 
-![Mini RAG over PDFs Interface](./docs/image.png)
+![Mini RAG over PDFs Interface](./doc/image.png)
 
 A professional, end-to-end RAG (Retrieval-Augmented Generation) system that enables intelligent document processing, semantic search, and question-answering over PDF documents.
 

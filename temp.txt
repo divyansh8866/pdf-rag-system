@@ -1,0 +1,22 @@
+Learn Vector Databases the Practical Way!
+
+I just built a Mini RAG (Retrieval-Augmented Generation) system over PDFs using Python and a vector database — and you can too!
+
+What you'll learn by building it:
+• Chunking documents and generating embeddings with sentence-transformers
+• Storing and querying vectors with ChromaDB (local vector DB)
+• Hybrid search (BM25 + semantic search) for better results
+• Creating a FastAPI backend with /search and /ask endpoints
+• Preparing for production by swapping ChromaDB → Qdrant or other vector DBs
+
+Stack:
+Python, FastAPI, ChromaDB, Sentence-Transformers, BM25
+
+Why this project?
+Instead of just reading about vector databases, you'll build something that takes real PDFs, finds the most relevant chunks, and can be extended into a full RAG pipeline with an LLM.
+
+GitHub Repo & Tutorial: [link to your repo]
+
+If you've been curious about vector search, semantic search, or RAG, this project will give you hands-on skills in under a weekend!
+
+#Python #FastAPI #VectorDatabase #RAG #MachineLearning #ChromaDB #Qdrant #AI #DataEngineering
