@@ -1,6 +1,6 @@
-# Mini RAG System
+# PDF RAG System
 
-A hands-on, end-to-end RAG (Retrieval-Augmented Generation) system that lets you ingest PDFs, chunk them, embed them, store vectors, and expose search/query endpoints.
+A professional, end-to-end RAG (Retrieval-Augmented Generation) system that enables intelligent document processing, semantic search, and question-answering over PDF documents.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ A hands-on, end-to-end RAG (Retrieval-Augmented Generation) system that lets you
 ## 📁 Project Structure
 
 ```
-mini_rag_system/
+pdf-rag-system/
 ├── data/                 # Put your PDFs here
 ├── store/                # ChromaDB persistent directory (auto-created)
 ├── app/

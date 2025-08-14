@@ -2,7 +2,7 @@ from fastapi import FastAPI, Query
 from pydantic import BaseModel
 from app.query import vector_search, hybrid_search
 
-app = FastAPI(title="Mini RAG over PDFs", description="A simple RAG system for searching and querying PDF documents")
+app = FastAPI(title="PDF RAG System", description="A professional RAG system for intelligent document processing and semantic search")
 
 class SearchHit(BaseModel):
     id: str
@@ -19,7 +19,8 @@ class AskResponse(BaseModel):
 def root():
     """Root endpoint with basic info."""
     return {
-        "message": "Mini RAG System",
+        "message": "PDF RAG System",
+        "description": "Professional document processing and semantic search platform",
         "endpoints": {
             "/search": "Search documents with semantic similarity",
             "/ask": "Ask questions and get answers with citations"
