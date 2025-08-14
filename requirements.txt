@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pymupdf
+sentence-transformers
+chroma-hnswlib
+chromadb
+rank-bm25
+numpy
+pydantic 
